@@ -16,7 +16,7 @@
 
         <img src="img/arrow-left.png" alt="prev" id="previous">
         <div id="slider">
-            <div class="slide active">
+            <div class="slide">
                 <div class="slide-copy">
                     <h2>Slide One</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae commodo sem. Integer eros nibh, molestie
@@ -63,6 +63,19 @@
 
         </div>
         <img src="img/arrow-right.png" alt="next" id="next">
+
+        <div id="settings">
+            <form id="settingsForm">
+                <div class="row">
+                    <legend>Auto Switch:&nbsp;</legend>
+                    <input type="checkbox" id="autoSwitch" name="autoswitch" value="true" checked="checked">
+                </div>
+                <div class="row">
+                    <legend>Auto Switch speed:&nbsp;</legend>
+                    <input type="number" id="autoSwitchSpeed" value="4000">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
